@@ -4,6 +4,8 @@ import modal from "./css/modal.css";
 import './js/modal.js';
 import './js/counties.js';
 import './js/pexels.js';
+import "regenerator-runtime/runtime.js";
+
 
 
 

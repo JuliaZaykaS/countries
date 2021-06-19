@@ -18,8 +18,8 @@ formEl.addEventListener('submit', (e) => {
     let search = e.target.elements.search.value.toLowerCase();
     const queryParams = `v1/search?query=${search}&per_page=${perPage}`;
     // axiosFetch(BASE_URL+queryParams, key, createGallery, formEl);
-    // pexelsFetch(key, search, perPage, createGallery, formEl);
-    classicFetch(key, BASE_URL + queryParams, createGallery, formEl);
+    pexelsFetch(key, search, perPage, createGallery, formEl);
+    // classicFetch(key, BASE_URL + queryParams, createGallery, formEl);
 
 
 
